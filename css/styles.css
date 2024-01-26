@@ -10953,7 +10953,19 @@ p {
   color: #ffc800;
 }
 
+/* boton wtz*/
+ .btn-wtz{
+  width: 70px !important;
+  height: 70px !important;
+  background-color: whitesmoke;
+  color: green;
+  border-radius: 10px;  
+  text-align: center;
+
+}
+
 /* Media query para pantallas más pequeñas (menos de 500px) */
+
 
 
 #logoNavBar {
