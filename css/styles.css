@@ -11087,9 +11087,7 @@ header.masthead .masthead-heading {
   font-size: 1.25rem;
   color: white;
 }
-#portfolio .portfolio-item .portfolio-link:hover .portfolio-hover {
-  opacity: 1;
-}
+
 #portfolio .portfolio-item .portfolio-caption {
   padding: 1.5rem;
   text-align: center;
