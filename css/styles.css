@@ -11075,6 +11075,15 @@ header.masthead .masthead-heading {
     margin-bottom: 4rem;
   }
 }
+
+/* Estilo para el primer div con el enlace de WhatsApp */
+#whatsapp-link {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 1000; /* Valor de z-index más alto */
+}
+
 #portfolio .portfolio-item {
   max-width: 26rem;
   margin-left: auto;
