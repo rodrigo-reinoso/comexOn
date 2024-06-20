@@ -8,7 +8,7 @@
     <meta name="author" content="" />
     <title>COMEX ON servicios</title>
     <!-- Favicon-->
-    <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+    <link rel="icon" type="image/x-icon" href="./assets/Logotipo_versiones_S_fullcolor.svg" />
     <!-- Font Awesome icons (free version)-->
     <script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>
     <!-- Google fonts-->
@@ -16,6 +16,8 @@
     <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700" rel="stylesheet" type="text/css" />
     <!-- Core theme CSS (includes Bootstrap)-->
     <link href="css/styles.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap">
+    
 
     <!-- Google Anaytics-->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-XQ47GC6177"></script>
@@ -26,14 +28,11 @@
 
         gtag('config', 'G-XQ47GC6177');
     </script>
-
-    <!-- SweetAlert2 CSS -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@11">
 </head>
 
 <body id="page-top">
 
-    <div  id="whatsapp-link" style="position: fixed; bottom: 20px; right: 20px;">
+    <div style="position: fixed; bottom: 20px; right: 20px;">
         <a href="https://api.whatsapp.com/send?phone=5493518565668" target="_blank" style="text-decoration: none;">
             <i class="fa-brands fa-square-whatsapp btn-wtz"></i>
         </a>
@@ -42,43 +41,45 @@
     <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
         <div class="container scroll">
             <a class="navbar-brand fs-3" href="./index.html"><img id="logoNavBar"
-                    src="../logoconexon/comexon blanco dorado.png" alt="logo-comexon" srcset=""></a>
+                    src="./logoconexon/logoterminadoONblanco.png" alt="logo-comexon" srcset=""></a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive"
                 aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-
                 <i class="fas fa-bars ms-1"></i>
             </button>
             <div class="collapse navbar-collapse" id="navbarResponsive">
                 <ul class="navbar-nav text-uppercase ms-auto py-4 py-lg-0">
-                    <li class="nav-item"><a class="nav-link" href="#services">Servicios</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#portfolio">Soluciones</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#conex">Nosotros</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#contact">Contacto</a></li>
+                    <li class="nav-item"><a id="style-li" class="nav-link" href="#services">Servicios</a></li>
+                    <li class="nav-item"><a id="style-li" class="nav-link" href="#portfolio">Soluciones</a></li>
+                    <li class="nav-item"><a id="style-li" class="nav-link" href="#conex">Nosotros</a></li>
+                    <li class="nav-item"><a id="style-li" class="nav-link" href="#contact">Contacto</a></li>
                 </ul>
             </div>
         </div>
     </nav>
+    
 
     <!-- Masthead-->
     <header class="masthead">
         <div class="container">
 
-            <div class="masthead-heading text-uppercase">Llevamos tu empresa más allá de las fronteras</div>
-            <a class="btn btn-primary btn-xl text-uppercase" href="#services">comencemos</a>
+            <div class="masthead-heading text-uppercase raleway">Llevamos tu empresa más allá de las fronteras</div>
+            <a class="btn colorBoton btn-xl text-uppercase raleway" href="#services">comencemos</a>
         </div>
     </header>
     <!-- Services-->
     <section class="page-section" id="services">
+        <h1 class="text-center classNosotros raleway">
+            SERVICIOS
+        </h1>
         <div class="container">
             <div class="text-center">
-                <h2 class="section-heading text-uppercase">Servicios</h2>
+
                 <h3 class="section-subheading text-muted"></h3>
             </div>
             <div class="row text-center">
                 <div class="col-md-4">
-                    <span class="fa-stack fa-4x">
-                        <i class="fas fa-circle fa-stack-2x text-primary"></i>
-                        <i class="fas fa-right-to-bracket fa-stack-1x fa-inverse"></i>
+                    <span class="fa-stack fa-5x">
+                        <img src="./assets/iconos/iconos-azules_import.png" alt="importación">
 
                     </span>
                     <h4 id="paleta-secundaria" class="my-3">Importación</h4>
@@ -98,10 +99,8 @@
                 </div>
 
                 <div class="col-md-4">
-                    <span class="fa-stack fa-4x">
-                        <i class="fas fa-circle fa-stack-2x text-primary"></i>
-                        <i class="fas fa-right-from-bracket fa-stack-1x fa-inverse"></i>
-
+                    <span class="fa-stack fa-5x">
+                        <img src="./assets/iconos/iconos-azules_export.png" alt="exportación">
                     </span>
                     <h4 id="paleta-secundaria" class="my-3">Exportación</h4>
                     <p class="text-muted">
@@ -118,9 +117,8 @@
                 </div>
 
                 <div class="col-md-4">
-                    <span class="fa-stack fa-4x">
-                        <i class="fas fa-circle fa-stack-2x text-primary"></i>
-                        <i class="fas  fa-book fa-stack-1x fa-inverse"></i>
+                    <span class="fa-stack fa-5x">
+                        <img src="./assets/iconos/iconos-azules_legal.png" alt="Legales">
                     </span>
                     <h4 id="paleta-secundaria" class="my-3">Legales</h4>
                     <p class="text-muted">
@@ -140,9 +138,12 @@
     </section>
     <!-- Portfolio Grid-->
     <section class="page-section bg-light" id="portfolio">
+        <h1 class="text-center classNosotros raleway">
+            SOLUCIONES
+        </h1>
         <div id="contenedor-gris" class="container">
             <div class="text-center">
-                <h2 class="section-heading text-uppercase">SOLUCIONES</h2>
+
                 <h3 class="section-subheading text-muted"></h3>
             </div>
             <div class="row">
@@ -153,7 +154,7 @@
                             <div class="portfolio-hover">
                                 <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
                             </div>
-                            <img class="img-fluid" src="assets/img/avion-contenedor.png" alt="..." />
+                            <img class="img-fluid posicionOvalo" src="assets/img/ovalo-aereo-color.png" alt="..." />
                         </a>
                         <div class="portfolio-caption">
                             <div class="portfolio-caption-heading">Aereas</div>
@@ -171,7 +172,7 @@
                             <div class="portfolio-hover">
                                 <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
                             </div>
-                            <img class="img-fluid" src="assets/img/barco-contenedor.png" alt="..." />
+                            <img class="img-fluid posicionOvalo" src="assets/img/ovalo-foto-maritimo.png" alt="..." />
                         </a>
                         <div class="portfolio-caption">
                             <div class="portfolio-caption-heading">Marítimas</div>
@@ -183,14 +184,14 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4 col-sm-6 mb-4">
+                <div class="col-lg-4 col-sm-6 mb-4 ">
                     <!-- Portfolio item 3-->
                     <div class="portfolio-item">
                         <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal3">
                             <div class="portfolio-hover">
                                 <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
                             </div>
-                            <img class="img-fluid" src="assets/img/camion.png" alt="..." />
+                            <img class="img-fluid posicionOvalo" src="assets/img/ovalo-terrestre-color.png" alt="..." />
                         </a>
                         <div class="portfolio-caption">
                             <div class="portfolio-caption-heading">Terrestres</div>
@@ -207,53 +208,58 @@
     </section>
     <!-- conex on-->
     <section class="page-section bg-light" id="conex">
-        <h1 class="text-center classNosotros">
+        <h1 class="text-center classNosotros raleway">
             NOSOTROS
         </h1>
         <div class="container mt-4">
             <div class="row">
                 <div class="col-md-12">
 
-                    <div class="row">
+                    <div class="row" id="contenedorHistoria">
 
                         <div class="col-md-6">
-                            <img src="./assets/img/infoconexon.jpg" class="img-fluid" alt="Imagen"
-                                style="height: 100%;">
+                            <img src="./assets/img/foto-nosotros-color.jpg" id="imagenNosotros" class="img-fluid"
+                                alt="Imagen" style="height: 100%;">
                         </div>
                         <div class="col-md-6 text-justify">
 
-                            <p class="text-left">Permítanme presentarles a Comex On, una empresa vibrante y dinámica
-                                ubicada en el corazón de Córdoba, Argentina. Nos dedicamos al emocionante mundo del
-                                comercio.
-                                <br>
-                                <br>
-                                Comex On es más que una empresa, es una visión. Una visión de conectar Argentina con el
-                                mundo, de abrir nuevas oportunidades y de construir puentes donde antes había barreras.
-                                Somos jóvenes, pero estamos llenos de energía, ideas innovadoras y un fuerte deseo de
-                                hacer una diferencia.
-                                <br>
-                                <br>
-                                Nuestro equipo está compuesto por profesionales apasionados y dedicados que están listos
-                                para ayudarles a navegar por el complejo paisaje del comercio internacional. Ya sea que
-                                necesiten ayuda con la importación y exportación de productos, la logística, el
-                                transporte o la consultoría, estamos aquí para ustedes.
-                                <br>
-                                <br>
-                                Pero Comex On es más que solo servicios. Es una promesa. Una promesa de excelencia, de
-                                atención al cliente de primera clase y de soluciones personalizadas diseñadas para
-                                satisfacer sus necesidades específicas.
-                                <br>
-                                <br>
-                                Así que los invitamos a unirse a nosotros en este emocionante viaje. Descubran cómo
-                                Comex On puede ayudarles a alcanzar sus objetivos comerciales y a prosperar en el
+                            <p class="text-left">
+                                Somos un equipo de profesionales dedicados y experimentados en el campo del
+                                comercio exterior. Nuestra experiencia abarca una amplia gama de industrias y
+                                mercados, lo que nos permite ofrecer soluciones personalizadas y eficientes para cada
+                                cliente.
+                                <br><br>
+                                Además de nuestra experiencia y conocimientos, nos distinguimos por nuestro
+                                compromiso con la excelencia y la satisfacción del cliente. Nos esforzamos por entender
+                                las necesidades y objetivos de cada cliente, y trabajamos incansablemente para
+                                ayudarles a alcanzar sus metas.
+                            </p>
+                        </div>
+                        <div>
+
+                        </div>
+                        <div class="col-md-12 text-justify">
+                            <br>
+                            <p class="text-left">
+                                Creemos en la importancia de la comunicación y la transparencia. Mantenemos a
+                                nuestros clientes informados en cada paso del proceso de importación o exportación, y
+                                estamos siempre disponibles para responder a sus preguntas y preocupaciones.
+                                Finalmente, somos conscientes de la importancia de la innovación en el mundo del
+                                comercio exterior. Estamos constantemente buscando nuevas formas de mejorar
+                                nuestros servicios y adaptarnos a las cambiantes condiciones del mercado.
+                                En resumen, somos más que un proveedor de servicios de comercio exterior. Somos un
+                                socio estratégico que se compromete a ayudar a nuestros clientes a tener éxito en el
                                 mercado global.
                             </p>
-
                         </div>
                     </div>
                 </div>
             </div>
+
+
         </div>
+        </div>
+
 
 
     </section>
@@ -261,111 +267,58 @@
     <!-- Contact-->
     <section class="page-section" id="contact">
         <div class="container">
-            <div class="text-center">
-                <h2 class="section-heading text-uppercase">Contacto</h2>
+            <div class="text-center raleway">
+                <h2 class="section-heading text-uppercase ">Contacto</h2>
                 <h3 class="section-subheading text-muted"></h3>
             </div>
 
 
-            <form id="contactForm" action="https://formsubmit.co/41fdc6a7e5c1a7ad8592024a3b11e02d" method="post">
-                <div class="row align-items-stretch mb-5">
-                    <div class="col-md-6">
+            <form id="contactForm" action="https://formsubmit.co/41fdc6a7e5c1a7ad8592024a3b11e02d" method="POST">
+                <div class="row align-items-stretch mb-5 posicionForm">
+                    <div class="col-md-6 text-center">
                         <div class="form-group">
                             <!-- Name input-->
-                            <input class="form-control" id="name" name="nombre" type="text" placeholder="Nombre *"
-                                data-sb-validations="required" />
+                            <input class="form-control mb-3" id="name" name="nombre" type="text" placeholder="Nombre *"
+                                data-sb-validations="required"/>
                             <div class="invalid-feedback" data-sb-feedback="name:required">Se requiere un nombre.</div>
                         </div>
                         <div class="form-group">
                             <!-- Email address input-->
-                            <input class="form-control" id="email" name="email" type="email" placeholder="Email *"
-                                data-sb-validations="required,email" />
+                            <input class="form-control mb-3" id="email" name="email" type="email" placeholder="Email *"
+                                data-sb-validations="required,email"/>
                             <div class="invalid-feedback" data-sb-feedback="email:required">Se requiere un email.</div>
                             <div class="invalid-feedback" data-sb-feedback="email:email">El correo no es válido.</div>
                         </div>
-                        <div class="form-group mb-md-0">
+                        <div class="form-group">
                             <!-- Phone number input-->
-                            <input class="form-control" id="phone" name="telefono" type="tel" placeholder="Telefono *"
-                                data-sb-validations="required" />
+                            <input class="form-control mb-3" id="phone" name="telefono" type="tel"
+                                placeholder="Telefono *" data-sb-validations="required"/>
                             <div class="invalid-feedback" data-sb-feedback="phone:required">Se requiere un número de
                                 teléfono.</div>
                         </div>
-                    </div>
-                    <div class="col-md-6">
-                        <div class="form-group form-group-textarea mb-md-0">
-                            <!-- Message input-->
-                            <textarea class="form-control" id="message" name="mensaje" placeholder="Mensaje *"
-                                data-sb-validations="required"></textarea>
-                            <div class="invalid-feedback" data-sb-feedback="message:required">Se requiere un mensaje.
-                            </div>
+                        <div class="form-group">
+                            <!-- Phone number input-->
+                            <select class="form-control mb-3" id="category" name="categoria"
+                                data-sb-validations="required">
+                                <option value="">Seleccione una opción</option>
+                                <option value="Importaciones">Importaciones</option>
+                                <option value="Exportaciones">Exportaciones</option>
+                                <option value="Otros">Otros</option>
+                            </select>
+                            <div class="invalid-feedback" data-sb-feedback="category:required">Se requiere seleccionar
+                                una categoría.</div>
                         </div>
                     </div>
+                    <div class="text-center">
+                        <input class="btn colorBoton btn-xl text-uppercase raleway" id="submitButton" type="submit" value="Enviar">
+    
+                        <input type="hidden" name="_next" value="http://127.0.0.1:5500/">
+    
+                        <input type="hidden" name="_captcha" value="false">
+                    </div>
                 </div>
-                <div class="text-center">
-                    <input class="btn btn-primary btn-xl text-uppercase" id="submitButton" type="submit" value="Enviar">
-                    <input type="hidden" name="_next" value="http://127.0.0.1:5502/index.html">
-                    <input type="hidden" name="_captcha" value="false">
-                </div>
-
+               
             </form>
-
-            <!-- SweetAlert2 JS -->
-            <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
-
-            <script>
-                // Espera a que el DOM esté completamente cargado
-                document.addEventListener("DOMContentLoaded", function () {
-                    // Obtiene el formulario
-                    const form = document.getElementById("contactForm");
-
-                    // Agrega un evento de submit al formulario
-                    form.addEventListener("submit", function (event) {
-                        // Previene el comportamiento predeterminado del formulario (enviarlo)
-                        event.preventDefault();
-
-                        // Envía el formulario utilizando Fetch API
-                        fetch(form.action, {
-                            method: form.method,
-                            body: new FormData(form)
-                        })
-                            .then(response => {
-                                if (response.ok) {
-                                    // Si el formulario se envió correctamente, muestra la alerta
-                                    // Muestra la alerta de éxito y redirige al usuario
-                                    Swal.fire({
-                                        icon: 'success',
-                                        title: '¡Formulario enviado!',
-                                        text: 'En breve nos estaremos comunicando!',
-                                        confirmButtonText: 'Cerrar'
-                                    }).then(() => {
-                                        // Redirige al usuario a la página de inicio después de cerrar la alerta
-                                        window.location.href = 'http://127.0.0.1:5502/index.html';
-                                    });
-
-                                } else {
-                                    // Si hay algún problema al enviar el formulario, muestra una alerta de error
-                                    Swal.fire({
-                                        icon: 'error',
-                                        title: 'Error',
-                                        text: 'Hubo un problema al enviar el formulario. Por favor, inténtalo de nuevo más tarde.',
-                                        confirmButtonText: 'Cerrar'
-                                    });
-                                }
-                            })
-                            .catch(error => {
-                                console.error('Error al enviar el formulario:', error);
-                                // Muestra una alerta de error si hay un problema con la solicitud Fetch
-                                Swal.fire({
-                                    icon: 'error',
-                                    title: 'Error',
-                                    text: 'Hubo un problema al enviar el formulario. Por favor, inténtalo de nuevo más tarde.',
-                                    confirmButtonText: 'Cerrar'
-                                });
-                            });
-                    });
-                });
-            </script>
-
 
         </div>
     </section>
@@ -373,10 +326,9 @@
     <footer class="footer py-4">
         <div class="container">
             <div class="row align-items-center">
-                <div class="col-lg-4 text-lg-start"><img id="logo-footer"
-                        src="../logoconexon/comex on logo 4000_1080.png" alt=""> es una empresa de <a
-                        class="link-dark text-decoration-none me-3 fw-bolder"
-                        href="./sections/jovanilu.html">JOVANILU</a></div>
+                <div class="col-lg-4 text-lg-start"><img id="logo-footer" src="./logoconexon/footer-empresa.png" alt="">
+                    es una empresa de <a class="link-dark text-decoration-none me-3 fw-bolder"
+                        href="#page-top">JOVANILU</a></div>
                 <div class="col-lg-4 my-3 my-lg-0">
                     <a class="btn btn-dark btn-social mx-2" href="https://api.whatsapp.com/send?phone=5493518565668"
                         aria-label="Whatsapp"><i class="fab fa-whatsapp"></i></a>
@@ -390,7 +342,7 @@
                 </div>
                 <div class="col-lg-4 text-lg-end">
                     <a class="link-dark text-decoration-none me-3 fw-bolder" href="index.html"><img id="logo-footer-2"
-                            src="../logoconexon/comexon gris dorado sin fondo.png" alt=""></a>
+                            src="./logoconexon/Logotipo_versiones_M_fullcolor.png" alt=""></a>
                     <a class="link-dark text-decoration-none" href="#page-top">Terminos de uso</a>
                 </div>
             </div>

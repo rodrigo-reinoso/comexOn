@@ -93,6 +93,7 @@
 
 body {
   margin: 0;
+  font-family: 'Raleway', sans-serif !important;
   font-family: var(--bs-body-font-family);
   font-size: var(--bs-body-font-size);
   font-weight: var(--bs-body-font-weight);
@@ -104,12 +105,24 @@ body {
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 .navbar.fixed-top {
-  background-color: #2a2c92 !important; /* Cambia esto al color blanco que desees */
+  background-color: rgba(189, 189, 189, 0.448) !important; /* Cambia esto al color blanco que desees */
   transition: background-color 0.3s ease !important; /* Efecto de transición suave */
+  box-shadow: yellow;
+  border-radius: 7px;
+  backdrop-filter: blur(10px);
 }
+
+#navbarStyle ul li a{
+  color: #ffffff !important;
+  font-weight: bold;
+  font-size: 18px !important;
+}
+
+
 
 #paleta-secundaria{
   padding-bottom: 7px !important;
+  color: #0058a5;
 }
 
 #alienando-izquierda li{
@@ -152,6 +165,44 @@ body {
 
 
 
+
+/*estilos botones*/
+.colorBoton{
+  background-color: #eb5b25 !important;
+  color: white !important;
+  font-size: 18px !important;
+  border-radius: 40px !important;
+  letter-spacing: 0.05em;
+
+}
+
+/* estilos secciones*/
+
+/* ovalos*/
+.posicionOvalo{
+  padding-left: 80px;
+
+}
+
+/*posicion formulario*/
+.posicionForm{
+  display: flex;
+  justify-content: space-around;
+}
+
+
+/*seccion nosotros*/
+.posicionNosotros{
+  display: flex;
+  align-items: center !important;
+}
+
+.nosEstilos{
+  font-size: 10px !important;
+  align-items: center !important;
+}
+
+
 hr {
   margin: 1rem 0;
   color: inherit;
@@ -175,6 +226,11 @@ h1, .h1 {
   h1, .h1 {
     font-size: 2.5rem;
   }
+}
+
+.raleway{
+  font-family: 'Raleway', sans-serif;
+  font-style: italic;
 }
 
 h2, .h2 {
@@ -3726,10 +3782,16 @@ textarea.form-control-lg {
   border-top-right-radius: 0;
 }
 
+/* estilos de navBar*/
+#style-li{
+  font-size: 18px !important;
+}
+
+
 .nav-pills {
   --bs-nav-pills-border-radius: 0.375rem;
   --bs-nav-pills-link-active-color: #fff;
-  --bs-nav-pills-link-active-bg: #ffc800;
+  --bs-nav-pills-link-active-bg: #ffc800 !important;
 }
 .nav-pills .nav-link {
   background: none;
@@ -8037,7 +8099,7 @@ textarea.form-control-lg {
   text-align: right !important;
 }
 
-.text-center {
+.text-center  {
   text-align: center !important;
 }
 
@@ -10909,6 +10971,7 @@ p {
   font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   font-size: 1.125rem;
   font-weight: 700;
+  
 }
 
 .btn-social {
@@ -10924,7 +10987,9 @@ p {
 #mainNav {
   padding-top: 1rem;
   padding-bottom: 1rem;
-  background-color: #212529;
+  background-color: #0058a5;
+  letter-spacing: 0.05em;
+
 }
 #mainNav .navbar-toggler {
   padding: 0.75rem;
@@ -10953,36 +11018,11 @@ p {
   color: #ffc800;
 }
 
-/* Clase Nosotros*/
-.classNosotros{
-  background-color: #DBCEA5 !important;
-  color: white !important;
-  padding-top: 20px !important;
-  padding-bottom: 20px !important;
- 
-}
- 
-h1 .classNosotros{
-  margin-bottom: 500px;
-}
-
-/* boton wtz*/
- .btn-wtz{
-  width: 70px !important;
-  height: 70px !important;
-  background-color: whitesmoke;
-  color: green;
-  border-radius: 10px;  
-  text-align: center;
-
-}
-
 /* Media query para pantallas más pequeñas (menos de 500px) */
 
 
-
 #logoNavBar {
-  width: 250px;
+  width: 180px;
   max-width: 100%; /* Ajusta el tamaño máximo del logo al 100% del contenedor */
   height: auto !important /* Asegura que la altura se ajuste automáticamente proporcionalmente al ancho */
 }
@@ -11031,12 +11071,59 @@ h1 .classNosotros{
     margin-right: 0;
   }
 }
+/* Clase Nosotros*/
+.classNosotros{
+  background-color: #0058a5 !important;
+  color: white !important;
+  padding-top: 20px !important;
+  padding-bottom: 20px !important;
+ 
+}
+ 
+h1 .classNosotros{
+  margin-bottom: 500px;
+}
+
+
+#conex{
+  padding-top: 0;
+
+}
+
+#imagenNosotros{
+  width: 450px !important;
+  border-radius: 7px;
+ 
+}
+#conex .text-left{
+  font-size: 20px;
+  padding-top: 20px;
+  text-align: justify;
+}
+
+#contenedorHistoria{
+  display: flex;
+  justify-content: space-between;
+}
+
+/* boton wtz*/
+.btn-wtz{
+  width: 90px !important;
+  height: 90px !important;
+  background-color: whitesmoke !important;
+  color: green !important;
+  border-radius: 10px !important;  
+  text-align: center !important;
+
+}
+
+
 header.masthead {
   padding-top: 10.5rem;
   padding-bottom: 6rem;
   text-align: center;
   color: #fff;
-  background-image: url("../assets/img/contenedor.jpeg");
+  background-image: url("../assets/img/navBarNew.jpg");
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
@@ -11075,15 +11162,6 @@ header.masthead .masthead-heading {
     margin-bottom: 4rem;
   }
 }
-
-/* Estilo para el primer div con el enlace de WhatsApp */
-#whatsapp-link {
-  position: fixed;
-  bottom: 20px;
-  right: 20px;
-  z-index: 1000; /* Valor de z-index más alto */
-}
-
 #portfolio .portfolio-item {
   max-width: 26rem;
   margin-left: auto;
@@ -11120,6 +11198,7 @@ header.masthead .masthead-heading {
   font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   font-weight: 700;
   margin-bottom: 0;
+  color: #eb5b25 ;
 }
 #portfolio .portfolio-item .portfolio-caption .portfolio-caption-subheading {
   font-style: italic;
@@ -11353,7 +11432,7 @@ header.masthead .masthead-heading {
 
 section#contact {
   background-color: #212529;
-  background-image: url("../assets/img/map-image.png");
+  background-image: url("../assets/img/slide-2-puerto-camion-color-semitono.jpg");
   background-repeat: no-repeat;
   background-position: center;
 }
